@@ -1,0 +1,7 @@
+SHELL=/bin/sh
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+
+@reboot root /root/setup.sh
+
+# place this file here: /etc/cron.d/setup
+# and don't forget to :  chmod +x /etc/cron.d/setup
