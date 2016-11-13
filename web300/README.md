@@ -15,6 +15,9 @@ sed -i 's/AllowOverride None/AllowOverride All/' /etc/apache2/sites-available/de
 git clone https://github.com/shark0der/dctf16-finals.git
 cd dctf16-finals/web300
 
+rm /var/www/index.html
+cp -R www/{*,.htaccess} /var/www/
+
 sed -i '/^disable_functions/d' /etc/php5/apache2/php.ini
 sed -i '/^disable_classes/d' /etc/php5/apache2/php.ini
 cat php.ini >> /etc/php5/apache2/php.ini
