@@ -5,3 +5,5 @@ https://web400.dctf-finals16.def.camp/
 
 #Solution
 The main idea is that anomaly based algorithms which are into "self-learning" mode can be learned malicious rules by feeding with small changes from the accepted versions until they believe that a malicious activity is legitimate. A solution example can be found in sol.py
+
+Author: Andrei
