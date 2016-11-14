@@ -36,4 +36,4 @@ After powering off the machine, take a snapshot and then start it.
 
 In my setup I have used lxc containers and created a snapshot. When I needed to restore the challenge to the initial state I was stopping the container, restoring it from the snapshot, starting it again. After starting it, the startup script would set up the cache and would then remove the .htaccess file. You'll have to modify the startup script to place the original `flag.php` file and `.htaccess` back to the www directory if you are not using snapshots.
 
-
+Author: shark0der
